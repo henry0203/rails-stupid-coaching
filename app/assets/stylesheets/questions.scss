@@ -1,0 +1,27 @@
+body {
+  color: rgb(100, 100, 100);
+  text-align: center;
+  margin-top: 50px;
+  width: auto;
+}
+
+h2{
+  font-size: 18px;
+  color: rgb(50, 50, 50);
+  font-style: italic;
+}
+
+input{
+  height: 50px;
+}
+
+.button{
+  height: 55px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 100);
+}
+
+.button:hover{
+    cursor: pointer;
+  }

@@ -1,0 +1,14 @@
+<%= @answer %>
+<h2>- You</h2>
+<% if @answer == "I am going to work" %>
+<%= "Great!" %>
+<h2>- The Teacher</h2>
+<% elsif @answer.include?("?") %>
+<%= "Silly question, get dressed and go to work!" %>
+<h2>- The Teacher</h2>
+<% else %>
+<%= "I don't care, get dressed and go to work!" %>
+<h2>- The Teacher</h2>
+<% end %>
+<%= link_to "Ask a new question", "ask" %>
+
